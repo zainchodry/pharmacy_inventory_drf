@@ -1,0 +1,91 @@
+# Django and DRF specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+.env
+.env.local
+.env.production
+.env.development
+*.sqlite3
+*.py[cod]
+
+# Migrations
+**/migrations/**/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/*.orig
+**/migrations/*.log
+
+# Virtual environment
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Python cache
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+build/
+dist/
+*.manifest
+*.spec
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Test and coverage
+.coverage
+*.cover
+coverage.xml
+nosetests.xml
+htmlcov/
+
+# Pytest
+.cache/
+.tox/
+.pytest_cache/
+.coverage.*
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# JetBrains IDE (PyCharm)
+.idea/
+
+# VSCode
+.vscode/
+.history/
+*.code-workspace
+
+# Local config
+config.json
+*.secret
+secrets.json
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
