@@ -28,7 +28,7 @@ A complete backend system built with **Django REST Framework (DRF)** for managin
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/enigmatix/pharmacy_inventory_drf.git
+git clone https://github.com/zainchodry/pharmacy_inventory_drf.git
 cd pharmacy_inventory_drf
 ```
 

@@ -69,7 +69,6 @@ class ChangePasswordView(generics.UpdateAPIView):
                     status=status.HTTP_400_BAD_REQUEST
                 )
 
-            # If old password is correct, set the new one
             user.set_password(new_password)
             user.save()
 
